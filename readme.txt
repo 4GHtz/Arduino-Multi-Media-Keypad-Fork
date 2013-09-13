@@ -1,3 +1,23 @@
+This adds support for the Arduino to function as a consumer remote control device, providing the following new options on Arduino Leonardo and Micro boards.
+
+Remote.increase()
+Remote.decrease()
+Remote.mute()
+
+Remote.play()
+Remote.pause()
+Remote.stop()
+Remote.next()
+
+Remote.previous()
+Remote.forward()
+Remote.rewind()
+Remote.clear() 
+
+Full details on the changes are available at http://stefanjones.ca/blog/arduino-leonardo-remote-multimedia-keys/
+
+----------------------------
+
 Arduino is an open-source physical computing platform based on a simple i/o
 board and a development environment that implements the Processing/Wiring
 language. Arduino can be used to develop stand-alone interactive objects or
